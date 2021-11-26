@@ -1,0 +1,18 @@
+.svgFooter{
+    background: url('../../../assets/img/logoFooterSvg.svg') 50% no-repeat !important;
+    width: 64px !important;
+    height: 20px !important; 
+}
+
+.svgFooter:hover{
+    color: #DF001F !important;
+    transition: all .4s ease-in-out !important;
+}
+
+.bgFooter{
+    background-color: #222222 !important;
+}
+
+.footerTwo{
+    border-top: 0.013333rem solid #414141 !important;
+}
