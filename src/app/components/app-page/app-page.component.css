@@ -1,0 +1,54 @@
+.hover-rotate {
+    overflow: hidden;
+    margin: 8px;
+    min-width: 240px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.hover-rotate img {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.hover-rotate:hover img {
+    transform: scale(1.3) rotate(5deg);
+}
+
+.textColorGray{
+    color: #5c6670 !important;
+    font-weight: 400 !important;
+}
+
+.liBorder{
+    border-radius: 4px !important;
+    border: 1px solid #a4a9ad !important;
+    margin-left: 2% !important;
+}
+
+.liText{
+    font-size: 13px !important;
+}
+
+.liWidth{
+    height: 40px !important;
+}
+
+.borderImg{
+    width: 96px !important;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px#a4a9ad;
+}
+
+.fontColorRed{
+    color: #DF001F!important;
+}
+
+.listFirts li{
+    text-decoration: none !important;
+}

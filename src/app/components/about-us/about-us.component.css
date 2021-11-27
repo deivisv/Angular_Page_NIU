@@ -1,0 +1,30 @@
+.banner{
+    height: 645px !important;
+    background: url('../../../assets/img/aboutUSImg/oneBackground.jpg') no-repeat 50% !important;
+    background-size: cover !important;
+    position: relative !important;
+}
+
+.banner-mask{
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    background-color: rgba(0,0,0,.5) !important;
+}
+
+.textColor{
+    color: #777 !important;
+    line-height: 1.75 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.numberH{
+    height: 8% !important;
+}
+
+.titles{
+    color: #333 !important;
+    font-weight: 700 !important;
+}

@@ -4,15 +4,34 @@
     height: 20px !important; 
 }
 
-.svgFooter:hover{
-    color: #DF001F !important;
-    transition: all .4s ease-in-out !important;
-}
-
 .bgFooter{
     background-color: #222222 !important;
 }
 
 .footerTwo{
     border-top: 0.013333rem solid #414141 !important;
+}
+
+.linksSocial{
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 1.6rem !important;
+    color: #555 !important;
+    padding-right: 5% !important;
+}
+
+.linksSocial:hover, .textColorFooter:hover{
+    color: #DF001F !important;
+    transition: all .4s ease-in-out !important;
+}
+
+.textColorFooter{
+    color: hsla(0,0%,100%,.5) !important;
+    line-height: 18px !important;
+    cursor: pointer;
+}
+
+.textFooter{
+    font-size: 10px !important;
+    font-weight: 400 !important;
 }
