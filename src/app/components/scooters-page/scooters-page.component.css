@@ -1,0 +1,48 @@
+.fontColorGrayTwo{
+    color: #959595 !important;
+}
+
+.fontColorRed{
+    color: #DF001F!important;
+}
+
+@media (min-width: 1700px) {
+    .fontResponsive{
+        font-size: 2.5rem;
+        padding-bottom: 5% !important;
+    }
+}
+
+.circleSelector{
+    width: 4%;
+    height: 26px;
+    border-radius: 100%;
+    border: 0.026667rem solid #eee;
+    cursor: pointer;
+    overflow: hidden;
+    margin-right: 2%;
+}
+
+.bgGray{
+    background-image: linear-gradient(90deg, rgb(85, 85, 85) 50%, rgb(68, 68, 68) 50%) !important;
+}
+
+.bgVeryDark{
+    background-image: linear-gradient(90deg, rgb(0, 0, 0) 50%, rgb(17, 17, 17) 50%) !important;
+}
+
+.titleUrban{
+    position: absolute;
+    top: 8.125vw;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 3.125vw;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 700;
+}
+
+.relariveP{
+    position: relative !important;
+}

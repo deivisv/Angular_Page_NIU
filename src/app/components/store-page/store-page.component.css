@@ -1,0 +1,7 @@
+.divButton{
+    cursor: pointer;
+    background-color: #df0d0d !important;
+    border-radius: 10% !important;
+    color: #fff !important;
+    width: 10% !important;
+}

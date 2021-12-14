@@ -5,6 +5,10 @@
     }
 }
 
+.borderPer{
+    border-bottom: 1px solid #757575;
+}
+
 .bodyCard{
     display: flex !important;
     flex-direction: column !important;

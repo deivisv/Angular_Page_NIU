@@ -1,3 +1,9 @@
+@media (min-width: 1500px) {
+    .fontResponsive{
+        font-size: 1.7rem !important;
+    }
+}
+
 .banner{
     height: 645px !important;
     background: url('../../../assets/img/aboutUSImg/oneBackground.jpg') no-repeat 50% !important;
@@ -16,7 +22,7 @@
 .textColor{
     color: #777 !important;
     line-height: 1.75 !important;
-    font-size: 16px !important;
+    font-size: 16px;
     font-weight: 400 !important;
 }
 
