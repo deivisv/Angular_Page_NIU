@@ -5,7 +5,7 @@
 .navbar a{
     color: #333 !important;
     font-weight: 500 !important;
-    font-size: 1.0rem !important;
+    font-size: 1.0rem;
     padding-right: 20px !important;
 }
 
@@ -28,4 +28,32 @@
 
 .navbar-effect:hover .wrapper {
     clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%)
+}
+
+@media (min-width: 2500px) {
+    .bigFont{
+        font-size: 2.5rem !important;
+    }
+    
+    .bigLog{
+        width: 150px !important;
+    }
+
+    .containerBig{
+        max-width: 80% !important;
+    }
+}
+
+@media (min-width: 4000px) {
+    .bigFont{
+        font-size: 3.5rem !important;
+    }
+    
+    .bigLog{
+        width: 250px !important;
+    }
+
+    .containerBig{
+        max-width: 80% !important;
+    }
 }

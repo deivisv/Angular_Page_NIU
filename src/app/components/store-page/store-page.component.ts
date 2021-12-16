@@ -6,18 +6,18 @@ import { AfterViewInit, Component, ElementRef, Renderer2, ViewChild } from '@ang
 	styleUrls: ['./store-page.component.css']
 })
 export class StorePageComponent implements AfterViewInit {
-	@ViewChild("asText") public asText!: ElementRef;
+	/* @ViewChild("asText") public asText!: ElementRef;
 	@ViewChild("miBoton") public asBoton!: ElementRef;
 	@ViewChild("asImg") public asImg!: ElementRef;
 	@ViewChild("miBotonDos") public asBotonDos!: ElementRef;
 	@ViewChild('asTextPrueba') asTextPrueba!:ElementRef;
-	@ViewChild("miBotonTres") public asBotonTres!: ElementRef;
+	@ViewChild("miBotonTres") public asBotonTres!: ElementRef; */
 
-	constructor(private renderer: Renderer2) { }
+	constructor(/* private renderer: Renderer2 */) { }
 
 	ngAfterViewInit(): void {
 		
-		const urlImg = 'https://pepeganga.vtexassets.com/arquivos/ids/469085/10205658202-1.jpg?v=637275082303400000'
+		/* const urlImg = 'https://pepeganga.vtexassets.com/arquivos/ids/469085/10205658202-1.jpg?v=637275082303400000'
 		const letra = 'palabra constante'
 		
 		setTimeout(() => {
@@ -37,18 +37,13 @@ export class StorePageComponent implements AfterViewInit {
 		this.asBotonDos.nativeElement.addEventListener('click', ()=>{
 			alert("Se hizo click en el div");
 			this.renderer.setAttribute(this.asImg.nativeElement, 'src', urlImg)
-			/* this.asText.nativeElement.innerText = "Texto con boton"; */
+			// this.asText.nativeElement.innerText = "Texto con boton";
 		}, false)
 
 		this.asBotonTres.nativeElement.addEventListener('click', ()=>{
 			
-		}, false)
+		}, false) */
 	}
-
-	
-
-
-
 }
 
 /* this.asBoton.nativeElement.addEventListener('click', ()=>{

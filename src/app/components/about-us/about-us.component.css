@@ -4,6 +4,12 @@
     }
 }
 
+@media (min-width: 4000px) {
+    .fontResponsive{
+        font-size: 3rem !important;
+    }
+}
+
 .banner{
     height: 645px !important;
     background: url('../../../assets/img/aboutUSImg/oneBackground.jpg') no-repeat 50% !important;

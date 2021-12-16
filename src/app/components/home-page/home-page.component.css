@@ -5,6 +5,16 @@
     }
 }
 
+@media (min-width: 4000px) {
+    .containerBig{
+        max-width: 80% !important;
+    }
+
+    .parrafBig{
+        font-size: 3rem !important;
+    }
+}
+
 .borderPer{
     border-bottom: 1px solid #757575;
 }

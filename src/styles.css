@@ -17,3 +17,14 @@
         width: 600px !important;
     }
 }
+
+@media (min-width: 4000px) {
+    .imgResponsive{
+        height: 1000px !important;
+        width: 1000px !important;
+    }
+
+    .titleBig{
+        font-size: 5.5rem !important;
+    }
+}

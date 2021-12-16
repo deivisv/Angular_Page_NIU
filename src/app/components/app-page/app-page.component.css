@@ -52,3 +52,42 @@
 .listFirts li{
     text-decoration: none !important;
 }
+
+.padding{
+    padding-left: 5rem !important;
+}
+
+@media (min-width: 4000px) {
+    .containerBigTwo{
+        max-width: 70% !important;
+        margin-top: 6rem !important;
+    }
+
+    .hover-rotate{
+        max-width: 950px;
+    }
+
+    .fontSizeResponsiveThree{
+        font-size: 7rem !important;
+    }
+
+    h1{
+        font-size: 4.5rem !important;
+    }
+
+    .parrafBig{
+        font-size: 3rem !important;
+    }
+
+    .list-group-item-notification{
+        padding: 7rem 6rem !important;
+    }
+
+    .liWidth{
+        height: 150px !important;
+    }
+
+    .imgNotificationCenter{
+        margin-top: -100% !important;
+    }
+}
